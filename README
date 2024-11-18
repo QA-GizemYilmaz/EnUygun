@@ -1,0 +1,36 @@
+code README.md
+
+## Enuygun Test Automation Project
+
+This project is designed to test the core functionalities of the **Enuygun** flight search and reservation platform. It was developed using Selenium WebDriver and the TestNG framework.
+
+---
+
+## Features
+
+- **Case1Test**: Flight search by date and validation of search results.
+- **Case2Test**: Similar to Case1 with an additional requirement to select Turkish Airlines (THY) flights. The prices are stored in a list (`List<Double>`) and compared with the original list.
+- **Case3Test**: Identifies the highest impact areas in case of issues on the Enuygun website.
+
+---
+
+## Requirements
+
+To run this project, you need the following tools and software:
+
+1. **Java Development Kit (JDK) 17 or higher**
+2. **Maven** (to manage project dependencies)
+3. **Selenium WebDriver** (v4.26.0)
+4. **TestNG** (v7.8.0 or higher)
+5. **Google Chrome** and **ChromeDriver** (compatible with your Chrome version)
+
+---
+
+## Setup
+
+1. **Clone the Project Repository:**
+   ```bash
+   git clone https://github.com/username/enuygun-test-project.git
+
+
+

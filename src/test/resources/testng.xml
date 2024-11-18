@@ -1,0 +1,7 @@
+<suite name="EnUygun Test Suite">
+    <test name="Case1 Tests">
+        <classes>
+            <class name="tests.Case1Test" />
+        </classes>
+    </test>
+</suite>
